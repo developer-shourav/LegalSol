@@ -1,8 +1,29 @@
 
 /* ===============Imported Fonts================ */
+/* --------Primary Fonts--------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* --------Heading Fonts--------- */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
+
+/* ===============Common Styles================ */
 body{
+    font-family: 'Poppins', sans-serif;  
+}
+
+.legalSol-heading-font{
     font-family: 'EB Garamond', serif;
+}
+
+.legalSol-btn-bg{
+    background-color:#B68C5A;
+    color: #fff;
+    font-weight: 500;
+}
+
+.legalSol-btn-bg:hover{
+    color:#B68C5A;
+    background-color: #fff;
+    border-color: #B68C5A;
     
 }
