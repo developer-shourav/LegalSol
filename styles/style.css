@@ -11,6 +11,28 @@ body{
     font-family: 'Poppins', sans-serif;  
 }
 
+
+
+.legalSol-bg-dark-1{
+    background-color:#111111;
+}
+.legalSol-dark-2{
+    color:#414040;
+}
+.legalSol-dark-3{
+    color:#707070;
+}
+.legalSol-dark-5{
+    color:#CFCFCF;
+}
+
+.legalSol-dark-6{
+    color:#E7E7E7;
+}
+.legalSol-dark-7{
+    color:#F3F3F3;
+}
+
 .legalSol-heading-font{
     font-family: 'EB Garamond', serif;
 }
@@ -27,3 +49,16 @@ body{
     border-color: #B68C5A;
     
 }
+
+
+
+/* ===============Ned Styles================ */
+.deader-banner{
+       background-image: url(../images/banner.png), linear-gradient(#00000056,#00000023);
+       background-blend-mode: multiply;
+       background-size: cover;
+       background-repeat: no-repeat;
+       border-radius: 10px;
+}
+
+
