@@ -11,6 +11,9 @@ body{
     font-family: 'Poppins', sans-serif;  
 }
 
+.legalSol-heading-font{
+    font-family: 'EB Garamond', serif;
+}
 
 
 .legalSol-bg-dark-1{
@@ -33,15 +36,32 @@ body{
     color:#F3F3F3;
 }
 
-.legalSol-heading-font{
-    font-family: 'EB Garamond', serif;
-}
+
 
 .legalSol-btn-bg{
     background-color:#B68C5A;
     color: #fff;
     font-weight: 500;
     transition: all .3s ease;
+}
+
+.legalSol-card-bg{
+    background: linear-gradient(#F3F3F3, #bdc3ff28, #bdc2ff0a);
+    
+}
+
+
+
+.legalSol-card-bg-hover{
+    background:#fff ;
+    transition: all .3s ease;
+    
+}
+
+
+.legalSol-card-bg-hover:hover{
+    background: linear-gradient(#F3F3F3, #bdc3ff28, #bdc2ff0a);
+    
 }
 
 .legalSol-btn-bg:hover{
