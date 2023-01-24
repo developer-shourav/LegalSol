@@ -41,6 +41,7 @@ body{
     background-color:#B68C5A;
     color: #fff;
     font-weight: 500;
+    transition: all .3s ease;
 }
 
 .legalSol-btn-bg:hover{
