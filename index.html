@@ -39,8 +39,26 @@
                     <a class="nav-link " aria-current="page" href="#contact">Contact Us ></a>
                   </li>
                 </ul>
-               
-                  <button class="btn py-3 px-4 legalSol-btn-bg" type="submit">Free Consultation</button>
+                  <!-- ----------------Button trigger modal-------------- -->
+                  <button class="btn py-3 px-4 legalSol-btn-bg" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Free Consultation</button>
+                  <!-- ---------------Modal----------------- -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="staticBackdropLabel">Sorry Dear😞😞</h1>
+                          <button type="button" class="btn-close legalSol-btn-bg" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-danger-emphasis">
+                          Our free Consultation system is not available at this moment
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary legalSol-btn-bg" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
               </div>
             </div>
           </nav>
@@ -321,12 +339,7 @@
               <div class="w-100">
                 <img src="./images/faq.png" class="img-fluid "  alt="">
               </div>
-
-
-
             </div>
-
-            
           </section>
 
 
